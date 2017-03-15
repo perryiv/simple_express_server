@@ -1,0 +1,21 @@
+{
+  "name": "simple_express_server",
+  "version": "1.0.0",
+  "description": "Simple express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Source/Main.js",
+    "dev": "nodemon Source/Main.js",
+    "debug": "node-debug --cli Source/Main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "node-inspector": "^0.12.10",
+    "nodemon": "^1.11.0"
+  }
+}
