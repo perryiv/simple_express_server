@@ -2,7 +2,6 @@
   "name": "simple_express_server",
   "version": "1.0.0",
   "description": "Simple express server",
-  "main": "index.js",
   "scripts": {
     "start": "node Source/Main.js",
     "dev": "nodemon Source/Main.js",
